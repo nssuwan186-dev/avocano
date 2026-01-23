@@ -29,3 +29,4 @@ httpx==0.28.1
 # Telemetry
 opentelemetry-resourcedetector-gcp==1.7.0a0
 opentelemetry-instrumentation-django==0.55b1
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
